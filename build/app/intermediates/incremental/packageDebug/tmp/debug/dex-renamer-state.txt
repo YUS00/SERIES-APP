@@ -1,4 +1,4 @@
-#Tue Nov 10 19:10:29 CET 2020
-base.0=C\:\\Users\\Pc\\Desktop\\app-series\\peliculas-flutter-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+#Tue Nov 10 23:14:31 CET 2020
+base.0=C\:\\S2AM\\M8\\First-project\\serie_apps\\SERIES-APP\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

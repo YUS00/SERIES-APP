@@ -30,6 +30,12 @@ class HomePage extends StatelessWidget {
           ],
         ),
         body: Container(
+          decoration: new BoxDecoration(
+              image: DecorationImage(
+            image: new NetworkImage(
+                "https://iphoneroscdn-iphoneros.netdna-ssl.com/wp-content/uploads/2020/01/ALL-other-iPhone-1.png"),
+            fit: BoxFit.cover,
+          )),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[_swiperTarjetas(), _footer(context)],
@@ -59,8 +65,8 @@ class HomePage extends StatelessWidget {
         children: <Widget>[
           Container(
               padding: EdgeInsets.only(left: 20.0),
-              child: Text('Populares',
-                  style: Theme.of(context).textTheme.subhead)),
+              child:
+                  Text('Populars', style: Theme.of(context).textTheme.subhead)),
           SizedBox(height: 5.0),
           StreamBuilder(
             stream: peliculasProvider.popularesStream,
